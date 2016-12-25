@@ -1,7 +1,6 @@
 {-# language GeneralizedNewtypeDeriving, DeriveDataTypeable #-}
-module HFish.Interpreter.NText where
+module Data.NText where
 
-import HFish.Interpreter.IsText
 import qualified Data.Text as T
 import Data.Text.ICU.Normalize
 
