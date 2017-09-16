@@ -2,10 +2,9 @@
 module Data.NText where
 
 import qualified Data.Text as T
-import Data.Text.ICU.Normalize
+import Data.Text.Normalize
 
 import Data.Hashable
-import Data.Monoid
 import Data.Data
 import Data.String (IsString(..))
 import Control.DeepSeq
