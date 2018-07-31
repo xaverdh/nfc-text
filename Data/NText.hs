@@ -12,7 +12,7 @@ import Control.DeepSeq
 -- | A type for 'T.Text' in NFC normal form.
 newtype NText = NText
   { extractText :: T.Text }
-  deriving (Eq,Ord,Show,Read,Data,IsString,Monoid,NFData,Typeable,Hashable)
+  deriving (Eq,Ord,Show,Read,Data,IsString,Semigroup,Monoid,NFData,Typeable,Hashable)
 
 -- | Create an NText from a 'T.Text' effectively
 --   normalizing it.
